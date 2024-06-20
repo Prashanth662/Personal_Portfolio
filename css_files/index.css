@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    
+}
+header{
+    position: fixed;
+    z-index: 1;
+}
+section{
+    background: #112E42;
+}
+
+section .about{
+    display: block;
+    padding-top: 45px;
+    margin-left: 2%;
+    padding-right: 8%;
+}
+section .about p{
+    text-align: justify;
+}
+.about button:hover{
+    background-color: aqua;   
+}
+.about button a:hover {
+    color: black !important;
+}
+section .image-container {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 400px; 
+    overflow: hidden;
+    margin-top: 100px;
+}
+.img {
+    width: 90%;
+    height: 80%;
+    object-fit:fill;
+    z-index: 0;
+}
+.project1{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.project2{
+    background-color: palegreen;
+    color: black;
+    border-radius: 25px;
+}
+.project2 ul li{
+    background-color: palegreen;
+}
+.project3{
+    background-color: rgb(152, 220, 251);
+    color: black;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.project3 ul li{
+    background-color: rgb(152, 220, 251);
+}
+.project4{
+    background-color: rgb(251, 154, 152);
+    color: black;
+    border-radius: 25px;
+}
+.project4 ul li{
+    background-color: rgb(251, 154, 152);
+}
+
+#skills .coding{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+input.form-control[type="text"]:hover,
+input.form-control[type="email"]:hover,
+textarea.form-control:hover {
+    background-color: aqua !important;
+    color: black !important;
+}

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css_files/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="container-fluid bg-dark">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand ms-lg-5 fs-2 fw-bold text-light" href="#"
+          >Prashanth</a
+        >
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                href="#home"
+                class="text-decoration-none fs-4 fw-bold text-light"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#education"
+                class="text-decoration-none fs-4 px-lg-3 fw-bold text-light"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#projects"
+                class="text-decoration-none fs-4 fw-bold text-light"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#skills"
+                class="text-decoration-none fs-4 px-lg-3 fw-bold text-light"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contact"
+                class="text-decoration-none fs-4 fw-bold text-light me-lg-5"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      class="container-fluid d-flex justify-content-evenly pt-lg-5"
+      id="home"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mt-5 text-light about">
+            <h2 class="p-2 fw-bold fs-1">Hi, It's Prashanth</h2>
+            <h3 class="p-2 fs-1">
+              I'm a <span class="fs-1" id="title"></span>
+            </h3>
+            <p class="p-2">
+              An enthusiastic and dedicated FullStack Developer with a strong
+              foundation in both front-end and back-end technologies. As a
+              recent graduate, I am eager to apply my skills and knowledge to
+              real world projects and contribute to dynamic development teams.
+            </p>
+            <div class="d-flex my-4">
+              <p class="me-5 ms-3">
+                <a
+                  href="https://www.linkedin.com/in/prashanth-kumar-a3555b251/"
+                  class="text-decoration-none text-light"
+                  style="
+                    outline: 2px solid aqua;
+                    outline-offset: 8px;
+                    border-radius: 50%;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    class="bi bi-linkedin rounded-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    />
+                  </svg>
+                </a>
+              </p>
+              <p class="me-5">
+                <a
+                  href="https://github.com/Prashanth662?tab=repositories"
+                  class="text-decoration-none text-light"
+                  style="
+                    outline: 2px solid aqua;
+                    outline-offset: 8px;
+                    border-radius: 50%;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    class="bi bi-github rounded-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                </a>
+              </p>
+              <p class="me-5">
+                <a
+                  href="https://www.instagram.com/prashanth_kumar1508/"
+                  class="text-decoration-none text-light"
+                  style="
+                    outline: 2px solid aqua;
+                    outline-offset: 8px;
+                    border-radius: 50%;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    />
+                  </svg>
+                </a>
+              </p>
+              <p class="me-5">
+                <a
+                  href="https://x.com/Prashanth4579"
+                  class="text-decoration-none text-light"
+                  style="
+                    outline: 2px solid aqua;
+                    outline-offset: 8px;
+                    border-radius: 50%;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    class="bi bi-twitter"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </div>
+            <button
+              class="btn btn-dark btn-lg text-center border-info rounded-pill me-3"
+            >
+              <a
+                href="https://www.linkedin.com/in/prashanth-kumar-a3555b251/"
+                class="text-decoration-none p-3 text-light"
+                >Hire</a
+              >
+            </button>
+            <button
+              class="btn btn-dark btn-lg text-center border-info rounded-pill"
+            >
+              <a href="#contact" class="text-decoration-none p-3 text-light"
+                >Contact</a
+              >
+            </button>
+          </div>
+          <div class="col-lg-6 image-container">
+            <img
+              src="./image/image.jpg"
+              alt="Image"
+              class="img rounded-circle"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="education">
+      <div class="container-sm">
+        <h2 class="p-2 fw-bold fs-2 text-center text-light">EDUCATION</h2>
+
+        <div class="row mt-lg-5 mt-md-3 d-sm-flex justify-content-sm-evenly">
+          <div class="col-lg-4 col-md-6 col-12">
+            <button class="ms-lg-5 mb-3" onclick="btech()">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hRZ-Bqjel5lcuIedrLb2YQ52Nq1sbGi5ag&s"
+                alt="btech"
+              />
+            </button>
+            <ul
+              class="list-group mb-3"
+              id="btech"
+              style="display: none; border-radius: 25px"
+            >
+              <li class="list-group-item border-0 text-center fw-bold">
+                2019-2023
+              </li>
+              <li class="list-group-item border-0">
+                <b>B.TECH-</b> Vignana Bharathi Engineering College <br />
+                (Hyderabad, Telangana)
+              </li>
+              <li class="list-group-item border-0">
+                <b>Course-</b> Computer Science and Engineering(<i>CSE</i>)
+              </li>
+              <li class="list-group-item border-0"><b>Percentage:</b> 65%</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <button class="mb-3" onclick="inter()">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="intermediate"
+              />
+            </button>
+            <ul
+              class="list-group mb-3"
+              id="inter"
+              style="display: none; border-radius: 25px"
+            >
+              <li class="list-group-item border-0 text-center fw-bold">
+                2017-2019
+              </li>
+              <li class="list-group-item border-0">
+                <b>INTER-</b> SRI NRI Junior College <br />
+                (Hyderabad, Telangana)
+              </li>
+              <li class="list-group-item border-0">
+                <b>Course-</b> Mathematics, Physics and Chemistry(<i>MPC</i>)
+              </li>
+              <li class="list-group-item border-0"><b>Percentage:</b> 81.5%</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <button class="mb-3" onclick="ssc()">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjRLWmacakGIJvpxsjbD45zNfc3bX865Y9w&s"
+                alt="SSC"
+              />
+            </button>
+            <ul
+              class="list-group mb-3"
+              id="ssc"
+              style="display: none; border-radius: 25px"
+            >
+              <li class="list-group-item border-0 text-center fw-bold">
+                2007-2017
+              </li>
+              <li class="list-group-item border-0">
+                <b>SSC-</b> Sri Vani Model High School <br />
+                (Hyderabad, Telangana)
+              </li>
+              <li class="list-group-item border-0"><b>Course-</b> Secondary Education</li>
+              <li class="list-group-item border-0"><b>Percentage:</b> 82%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="projects">
+      <div class="container">
+        <h2 class="fw-bold fs-2 text-center text-light py-5">PROJECTS</h2>
+        <div class="row">
+          <div class="col-lg-5 project1 ms-lg-5 mt-3">
+            <h3 class="fs-4 fw-bold text-center pt-3">
+              Currency Recognition System
+            </h3>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                Currency Recognition System Using Image Processing
+              </li>
+              <li class="list-group-item border-0">
+                Project aims to identify and classify different currencies from
+                images
+              </li>
+              <li class="list-group-item border-0">
+                It employs Python image processing libraries to analysis
+                Currency images, extract and pattern Recognition techniques to
+                determine Currency denomination
+              </li>
+              <li class="list-group-item border-0">
+                Languages used: HTML5, CSS, JavaScript, Python, Django, Tkinter,
+                Opencv, Scrapy and MYSQL
+              </li>
+              <li class="list-group-item border-0">
+                Team-lead to handle 3 group members
+              </li>
+              <li class="list-group-item border-0">
+                My role is Frontend Developer
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 project2 mt-3">
+            <h3 class="fs-4 fw-bold text-center pt-3">
+              Personal Portfolio Website
+            </h3>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                Frontend Personal Portfolio Website
+              </li>
+              <li class="list-group-item border-0">
+                Contains fixed navbar, Home page, Project Section page, Resume
+                download link and Contact page
+              </li>
+              <li class="list-group-item border-0">
+                Box-icons CDN is used for importing icons
+              </li>
+              <li class="list-group-item border-0">
+                Bootstrap property used for responsiveness
+              </li>
+              <li class="list-group-item border-0">
+                Transition, transform, hover and box-shadow property used for
+                better looking of website
+              </li>
+              <li class="list-group-item border-0">
+                Languages used: HTML5, CSS3, Bootstrap, JavaScript
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 project3 mt-3 ms-lg-5">
+            <h3 class="fs-4 fw-bold text-center pt-3">E-Commerce Website</h3>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                <b>Made Registration and Login page</b>
+              </li>
+              <li class="list-group-item border-0">
+                Bootstrap CSS is used for styling items and contents
+              </li>
+              <li class="list-group-item border-0">
+                Xampp Server is used as a Server
+              </li>
+              <li class="list-group-item border-0">
+                PHP is used for connecting to databases
+              </li>
+              <li class="list-group-item border-0">
+                PostgreSQL Database is used for storing data
+              </li>
+              <li class="list-group-item border-0">
+                Password is stored in the encrypted form in the database
+              </li>
+              <li class="list-group-item border-0">
+                Languages used HTML, CSS, Bootstrap, JavaScript, PHP, PostgreSQL
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 project4 mt-3">
+            <h3 class="fs-4 fw-bold text-center pt-3">
+              BookMyShow Application
+            </h3>
+            <ul class="list-group">
+              <li class="list-group-item border-0">
+                <b>Made Registration and Login page</b>
+              </li>
+              <li class="list-group-item border-0">
+                Bootstrap CSS is used for styling items and contents
+              </li>
+              <li class="list-group-item border-0">
+                Xampp Server is used as a Server
+              </li>
+              <li class="list-group-item border-0">
+                PHP is used for connecting to databases
+              </li>
+              <li class="list-group-item border-0">
+                PostgreSQL Database is used for storing data
+              </li>
+              <li class="list-group-item border-0">
+                Password is stored in the encrypted form in the database
+              </li>
+              <li class="list-group-item border-0">
+                Languages used HTML, CSS, Bootstrap, JavaScript, PHP, PostgreSQL
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="skills">
+      <div class="container">
+        <h2 class="py-5 fw-bold fs-2 text-center text-light">
+          MY <span class="fs-2 text-primary">Skills</span>
+        </h2>
+        <div class="row">
+          <div class="col-lg-5">
+            <p class="fs-4 fw-bold text-light ms-lg-5">Coding Skills</p>
+            <div class="coding mb-3 ms-lg-5">
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">HTML</p>
+                <p class="fs-5 p-2">90%</p>
+              </div>
+              <div class="progress mx-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 90%"
+                ></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">CSS</p>
+                <p class="fs-5 p-2">75%</p>
+              </div>
+              <div class="progress mx-3">
+                <div class="progress-bar-striped bg-primary w-75"></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">JavaScript</p>
+                <p class="fs-5 p-2">65%</p>
+              </div>
+              <div class="progress mx-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 65%"
+                ></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">PHP</p>
+                <p class="fs-5 p-2">60%</p>
+              </div>
+              <div class="progress mx-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 60%"
+                ></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">Core Java</p>
+                <p class="fs-5 p-2">55%</p>
+              </div>
+              <div class="progress mx-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 55%"
+                ></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">PostgreSQL</p>
+                <p class="fs-5 p-2">70%</p>
+              </div>
+              <div class="progress mx-3 mb-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 70%"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <p class="fs-4 fw-bold text-light">Professional Skills</p>
+            <div class="coding">
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">Frontend Developer</p>
+                <p class="fs-5 p-2">80%</p>
+              </div>
+              <div class="progress mx-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 80%"
+                ></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">Backend Developer</p>
+                <p class="fs-5 p-2">70%</p>
+              </div>
+              <div class="progress mx-3">
+                <div
+                  class="progress-bar-striped bg-primary"
+                  style="width: 70%"
+                ></div>
+              </div>
+
+              <div class="d-flex justify-content-between text-light mx-2">
+                <p class="fs-5 p-2">FullStack Web Developer</p>
+                <p class="fs-5 p-2">75%</p>
+              </div>
+              <div class="progress mx-3 mb-3">
+                <div class="progress-bar-striped bg-primary w-75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="contact">
+      <div class="container">
+        <h2 class="py-5 fw-bold fs-2 text-center text-light">
+          Contact <span class="fs-2 text-warning">Me!</span>
+        </h2>
+        <div class="row">
+          <div class="col-lg-5 mb-3 ms-lg-5">
+            <input
+              type="text"
+              class="p-lg-3 form-control bg-dark text-light border border-info fs-5"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="col-lg-5 mb-3">
+            <input
+              type="text"
+              class="p-lg-3 form-control bg-dark text-light border border-info fs-5"
+              placeholder="Second Name"
+            />
+          </div>
+          <div class="col-lg-5 mb-3 ms-lg-5">
+            <input
+              type="email"
+              class="p-lg-3 form-control bg-dark text-light border border-info fs-5"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="col-lg-5 mb-3">
+            <input
+              type="text"
+              class="p-lg-3 form-control bg-dark text-light border border-info fs-5"
+              placeholder="Mobile Number"
+            />
+          </div>
+          <div class="col-lg-10 mb-3 ms-lg-5">
+            <textarea
+              class="p-lg-3 form-control bg-dark text-light border border-info fs-5"
+              placeholder="Message"
+              cols="1"
+              rows="5"
+            ></textarea>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center pb-5">
+          <button class="btn btn-primary py-2 px-3 text-dark fw-bold">
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light">
+      <p class="fs-5 text-center p-3">
+        Copyright &copy; 2023 by <i>Prashanth</i> | All Rights Reserved.
+      </p>
+    </footer>
+    <script src="./js_files/index.js"></script>
+  </body>
+</html>
