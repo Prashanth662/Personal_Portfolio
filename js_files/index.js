@@ -23,33 +23,3 @@ const titles = ["Full Stack Web Developer", "Backend Developer", "Frontend Devel
         }
 
         window.onload = showNextCharacter;
-
-function btech(){
-    var btech = document.getElementById("btech");
-    if(btech.style.display === "none"){
-        btech.style.display = "block";
-    }
-    else{
-        btech.style.display = "none";
-    }
-}
-
-function inter(){
-    var inter = document.getElementById("inter");
-    if(inter.style.display=== "none"){
-        inter.style.display = "block";
-    }
-    else{
-        inter.style.display = "none";
-    }
-}
-
-function ssc(){
-    var ssc = document.getElementById("ssc");
-    if(ssc.style.display=== "none"){
-        ssc.style.display = "block";
-    }
-    else{
-        ssc.style.display = "none";
-    }
-}
