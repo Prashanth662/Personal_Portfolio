@@ -18,6 +18,7 @@
     ></script>
   </head>
   <body>
+
     <header class="container-fluid bg-dark">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand ms-lg-5 fs-2 fw-bold text-light" href="#"
@@ -84,7 +85,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mt-5 text-light about">
-            <h2 class="p-2 fw-bold fs-1">Hi, It's Prashanth</h2>
+            <h2 class="p-2 fs-1">
+              Hi, It's <span class="fs-1 text-light">Prashanth</span>
+            </h2>
             <h3 class="p-2 fs-1">
               I'm a <span class="fs-1" id="title"></span>
             </h3>
@@ -220,83 +223,46 @@
       </div>
     </section>
 
-    <section class="container-fluid" id="education">
-      <div class="container-sm">
-        <h2 class="p-2 fw-bold fs-2 text-center text-light">EDUCATION</h2>
+    <section class="container-fluid text-light" id="education">
+      <div class="container">
 
-        <div class="row mt-lg-5 mt-md-3 d-sm-flex justify-content-sm-evenly">
-          <div class="col-lg-4 col-md-6 col-12">
-            <button class="ms-lg-5 mb-3" onclick="btech()">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hRZ-Bqjel5lcuIedrLb2YQ52Nq1sbGi5ag&s"
-                alt="btech"
-              />
-            </button>
-            <ul
-              class="list-group mb-3"
-              id="btech"
-              style="display: none; border-radius: 25px"
-            >
-              <li class="list-group-item border-0 text-center fw-bold">
-                2019-2023
-              </li>
-              <li class="list-group-item border-0">
-                <b>B.TECH-</b> Vignana Bharathi Engineering College <br />
-                (Hyderabad, Telangana)
-              </li>
-              <li class="list-group-item border-0">
-                <b>Course-</b> Computer Science and Engineering(<i>CSE</i>)
-              </li>
-              <li class="list-group-item border-0"><b>Percentage:</b> 65%</li>
-            </ul>
+        <h2 class="fw-bold fs-2 text-center text-light py-5">EDUCATION</h2>
+        <div class="row">
+
+          <div class="line col-1" style="width: 0.5%">
+
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <button class="mb-3" onclick="inter()">
-              <img
-                src="data:image/jpeg;base64,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"
-                alt="intermediate"
-              />
-            </button>
-            <ul
-              class="list-group mb-3"
-              id="inter"
-              style="display: none; border-radius: 25px"
-            >
-              <li class="list-group-item border-0 text-center fw-bold">
-                2017-2019
-              </li>
-              <li class="list-group-item border-0">
-                <b>INTER-</b> SRI NRI Junior College <br />
-                (Hyderabad, Telangana)
-              </li>
-              <li class="list-group-item border-0">
-                <b>Course-</b> Mathematics, Physics and Chemistry(<i>MPC</i>)
-              </li>
-              <li class="list-group-item border-0"><b>Percentage:</b> 81.5%</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <button class="mb-3" onclick="ssc()">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjRLWmacakGIJvpxsjbD45zNfc3bX865Y9w&s"
-                alt="SSC"
-              />
-            </button>
-            <ul
-              class="list-group mb-3"
-              id="ssc"
-              style="display: none; border-radius: 25px"
-            >
-              <li class="list-group-item border-0 text-center fw-bold">
-                2007-2017
-              </li>
-              <li class="list-group-item border-0">
-                <b>SSC-</b> Sri Vani Model High School <br />
-                (Hyderabad, Telangana)
-              </li>
-              <li class="list-group-item border-0"><b>Course-</b> Secondary Education</li>
-              <li class="list-group-item border-0"><b>Percentage:</b> 82%</li>
-            </ul>
+
+          <div class="education col-lg-6 col-11">
+
+            <div class="btech border px-3">
+                <b class="star">.</b>
+                <span class="year fw-bold fs-4">2019-2023</span>
+                <p class="text-lg-center">
+                  <b class="text-warning">B.TECH-</b> Vignana Bharathi Engineering College( VBEC ) <br>(Hyderabad)
+                </p>
+                <p class="text-lg-center"><b class="text-primary">Course-</b> Computer Science and Engineering(<i>CSE</i>)</p>
+                <p class="text-lg-center"><b class="text-info">Percentage:</b> 65%</p>
+            </div>
+
+            <div class="inter border px-3 my-3">
+              <b class="star">.</b>
+              <span class="year fw-bold fs-4">2017-2019</span>
+              <p class="text-lg-center"><b class="text-warning">INTER-</b> SRI NRI Junior College</p>
+              <p class="text-lg-center">
+                <b class="text-primary">Course-</b> Mathematics, Physics and Chemistry(<i>MPC</i>)
+              </p>
+              <p class="text-lg-center"><b class="text-info">Percentage:</b> 81.5%</p>
+            </div>
+
+            <div class="ssc border px-3">
+              <b class="star">.</b>
+              <span class="year fw-bold fs-4">2007-2017</span>
+              <p class="text-lg-center">
+                <b class="text-warning">SSC-</b> Sri Vani Model High School
+              </p>
+              <p class="text-lg-center"><b class="text-info">Percentage:</b> 82%</p>
+            </div>
           </div>
         </div>
       </div>
@@ -306,6 +272,7 @@
       <div class="container">
         <h2 class="fw-bold fs-2 text-center text-light py-5">PROJECTS</h2>
         <div class="row">
+
           <div class="col-lg-5 project1 ms-lg-5 mt-3">
             <h3 class="fs-4 fw-bold text-center pt-3">
               Currency Recognition System
@@ -324,17 +291,18 @@
                 determine Currency denomination
               </li>
               <li class="list-group-item border-0">
-                Languages used: HTML5, CSS, JavaScript, Python, Django, Tkinter,
-                Opencv, Scrapy and MYSQL
+                Languages used: <b>HTML5, CSS, JavaScript, Python, Django, Tkinter,
+                  Opencv, Scrapy and MYSQL</b>
               </li>
               <li class="list-group-item border-0">
                 Team-lead to handle 3 group members
               </li>
               <li class="list-group-item border-0">
-                My role is Frontend Developer
+                My role is <b>Frontend Developer</b> 
               </li>
             </ul>
           </div>
+
           <div class="col-lg-5 project2 mt-3">
             <h3 class="fs-4 fw-bold text-center pt-3">
               Personal Portfolio Website
@@ -358,10 +326,11 @@
                 better looking of website
               </li>
               <li class="list-group-item border-0">
-                Languages used: HTML5, CSS3, Bootstrap, JavaScript
+                Languages used: <b>HTML5, CSS3, Bootstrap5, JavaScript</b>
               </li>
             </ul>
           </div>
+
           <div class="col-lg-5 project3 mt-3 ms-lg-5">
             <h3 class="fs-4 fw-bold text-center pt-3">E-Commerce Website</h3>
             <ul class="list-group">
@@ -384,10 +353,11 @@
                 Password is stored in the encrypted form in the database
               </li>
               <li class="list-group-item border-0">
-                Languages used HTML, CSS, Bootstrap, JavaScript, PHP, PostgreSQL
+                Languages used: <b> HTML, CSS, Bootstrap, JavaScript, PHP, PostgreSQL</b>
               </li>
             </ul>
           </div>
+
           <div class="col-lg-5 project4 mt-3">
             <h3 class="fs-4 fw-bold text-center pt-3">
               BookMyShow Application
@@ -412,10 +382,11 @@
                 Password is stored in the encrypted form in the database
               </li>
               <li class="list-group-item border-0">
-                Languages used HTML, CSS, Bootstrap, JavaScript, PHP, PostgreSQL
+                Languages used: <b> HTML, CSS, Bootstrap, JavaScript, PHP, PostgreSQL</b>
               </li>
             </ul>
           </div>
+          
         </div>
       </div>
     </section>
@@ -531,6 +502,17 @@
       </div>
     </section>
 
+    <section class="container-fluid" id="resume">
+      <div class="container d-flex justify-content-evenly py-5">
+        <h2 class="fw-bold fs-2 text-center text-light">RESUME</h2>
+        <a
+          href="./resume/resume.pdf"
+          class="text-decoration-none text-warning fw-bold fs-3"
+          >Download</a
+        >
+      </div>
+    </section>
+
     <section class="container-fluid" id="contact">
       <div class="container">
         <h2 class="py-5 fw-bold fs-2 text-center text-light">
@@ -587,6 +569,7 @@
         Copyright &copy; 2023 by <i>Prashanth</i> | All Rights Reserved.
       </p>
     </footer>
+
     <script src="./js_files/index.js"></script>
   </body>
 </html>
