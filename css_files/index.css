@@ -21,6 +21,7 @@ section{
     background: #112E42;
 }
 
+/* Profile Section */
 section .about{
     display: block;
     padding-top: 45px;
@@ -50,6 +51,26 @@ section .image-container {
     object-fit:fill;
     z-index: 0;
 }
+
+/* Education details */
+.education p{
+    font-size: larger;
+}
+.line{
+    background-color: aqua;
+    border-radius: 40px;
+}
+.education .border{
+    border-radius: 40px;
+}
+.star{
+    position: relative;
+    left: -50px;
+    font-size: 75px;
+    color: green;
+}
+
+/* Projects details */
 .project1{
     background-color: white;
     color: black;
@@ -82,11 +103,13 @@ section .image-container {
     background-color: rgb(251, 154, 152);
 }
 
+/* Skills details */
 #skills .coding{
     border: 2px solid lightblue;
     border-radius: 10px;
 }
 
+/* Contact details */
 input.form-control[type="text"]:hover,
 input.form-control[type="email"]:hover,
 textarea.form-control:hover {
